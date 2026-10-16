@@ -1,0 +1,6 @@
+# Command run from the console when someone buys a shard.
+# Placeholders: {player} {mob} {amount}
+shard-command: "givespawner {player} {mob} {amount}"
+
+# Largest number of items (or shards) a player can buy in one purchase.
+max-amount: 2304

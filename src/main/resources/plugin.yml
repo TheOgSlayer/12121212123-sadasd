@@ -1,0 +1,19 @@
+name: ShopGUI
+version: '${project.version}'
+main: com.shopgui.ShopGUI
+api-version: '1.21'
+depend: [Vault]
+softdepend: [Essentials]
+description: Dialog based shop with 7 categories, powered by Vault.
+commands:
+  shop:
+    description: Open the shop.
+    usage: /shop [reload]
+    permission: shopgui.use
+permissions:
+  shopgui.use:
+    description: Open and use the shop.
+    default: true
+  shopgui.reload:
+    description: Reload prices.yml and config.yml.
+    default: op

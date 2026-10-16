@@ -1,0 +1,77 @@
+# ShopGUI prices (price PER ITEM).
+#
+# Each section is one shop. Every line is   ITEM: price
+#  * Item names are Bukkit material names:
+#    https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#  * Set a price to 0 (or delete the line) to remove an item from the shop.
+#  * You can add more items to any section, in any order.
+#  * The "shards" shop is different: the name is the MOB name that is sent to
+#    the shard command (see config.yml), and the price is per spawner.
+#
+# After editing, run  /shop reload  (or restart the server).
+
+end:
+  ENDER_CHEST: 400.0
+  ENDER_PEARL: 60.0
+  END_STONE: 5.0
+  DRAGON_BREATH: 150.0
+  END_ROD: 20.0
+  POPPED_CHORUS_FRUIT: 8.0
+  CHORUS_FRUIT: 6.0
+  SHULKER_SHELL: 500.0
+  SHULKER_BOX: 1500.0
+
+nether:
+  BLAZE_ROD: 40.0
+  GLOWSTONE_DUST: 10.0
+  MAGMA_CREAM: 25.0
+  GHAST_TEAR: 120.0
+  QUARTZ: 8.0
+  SOUL_SAND: 6.0
+  MAGMA_BLOCK: 12.0
+  CRYING_OBSIDIAN: 80.0
+
+gear:
+  OBSIDIAN: 30.0
+  END_CRYSTAL: 250.0
+  RESPAWN_ANCHOR: 300.0
+  GLOWSTONE: 40.0
+  TOTEM_OF_UNDYING: 1500.0
+  ENDER_PEARL: 60.0
+  GOLDEN_APPLE: 100.0
+  EXPERIENCE_BOTTLE: 30.0
+  ARROW: 2.0
+
+minerals:
+  DIAMOND: 150.0
+  IRON_INGOT: 20.0
+  GOLD_INGOT: 35.0
+  COPPER_INGOT: 10.0
+  COAL: 6.0
+
+food:
+  POTATO: 3.0
+  SWEET_BERRIES: 3.0
+  MELON_SLICE: 2.0
+  CARROT: 3.0
+  APPLE: 5.0
+  COOKED_CHICKEN: 8.0
+  COOKED_BEEF: 10.0
+  GOLDEN_CARROT: 25.0
+  GOLDEN_APPLE: 100.0
+
+overworld:
+  DIRT: 1.0
+  GRASS_BLOCK: 3.0
+  GRAVEL: 2.0
+  SAND: 2.0
+  COBBLESTONE: 2.0
+
+shards:
+  cow: 5000.0
+  blaze: 25000.0
+  golem: 40000.0
+  zombie: 8000.0
+  skeleton: 10000.0
+  creeper: 15000.0
+  spider: 8000.0
